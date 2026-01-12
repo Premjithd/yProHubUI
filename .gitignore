@@ -1,0 +1,42 @@
+# Git ignore file for yProHub project (root)
+
+# Backend (.NET API)
+ProHubAPI/ServiceProviderAPI/bin/
+ProHubAPI/ServiceProviderAPI/obj/
+ProHubAPI/ServiceProviderAPI/.vs/
+ProHubAPI/ServiceProviderAPI/.vscode/
+ProHubAPI/ServiceProviderAPI/*.user
+ProHubAPI/ServiceProviderAPI/*.suo
+ProHubAPI/ServiceProviderAPI/.idea/
+
+# Frontend (Angular)
+ProHubUI/prohub-ui/dist/
+ProHubUI/prohub-ui/node_modules/
+ProHubUI/prohub-ui/.angular/
+ProHubUI/prohub-ui/.vscode/
+
+# Common IDEs
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
